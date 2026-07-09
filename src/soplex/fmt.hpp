@@ -36,8 +36,8 @@
 
 /* to provide backwards compatibility use fmt of PaPILO <= 2.3 due to breaking changes in fmt 7 */
 #if !defined(SOPLEX_WITH_PAPILO) || PAPILO_VERSION_MAJOR > 2 || (PAPILO_VERSION_MAJOR == 2 && PAPILO_VERSION_MINOR > 3)
-#include "soplex/external/fmt/format.h"
-#include "soplex/external/fmt/ostream.h"
+#include "fmt/format.h"
+#include "fmt/ostream.h"
 #else
 #include "papilo/external/fmt/format.h"
 #include "papilo/external/fmt/ostream.h"
