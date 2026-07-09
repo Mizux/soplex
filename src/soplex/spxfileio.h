@@ -41,7 +41,7 @@
  *-----------------------------------------------------------------------------
  */
 #if SOPLEX_HAS_ZLIB
-#include "soplex/external/zstr/zstr.hpp"
+#include "zstr.hpp"
 #endif /* SOPLEX_HAS_ZLIB */
 
 namespace soplex
