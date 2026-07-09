@@ -41,7 +41,7 @@
  *-----------------------------------------------------------------------------
  */
 #ifdef SOPLEX_WITH_ZLIB
-#include "soplex/external/zstr/zstr.hpp"
+#include "zstr.hpp"
 #endif // WITH_GSZSTREAM
 
 namespace soplex
